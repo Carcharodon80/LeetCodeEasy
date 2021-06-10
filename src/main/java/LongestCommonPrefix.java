@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         int minWordLength = 200;
@@ -22,6 +24,5 @@ public class LongestCommonPrefix {
             }
         }
         return rsl;
-
     }
 }
